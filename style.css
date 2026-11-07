@@ -1,0 +1,121 @@
+body {
+  background: linear-gradient(to bottom right, #FFE484, #FFCC33, #FC9601, #D14009);
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #FFCC33; 
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h1 {
+  text-shadow: 2px 2px #FC9601;
+  font-family: "Monotype Corsiva", cursive;
+}
+h2 {
+  font-size: large;
+  text-decoration: underline;
+  font-style: italic;
+  color: red;
+  margin-top: 30px;
+  text-shadow: 2px 2px yellowgreen;
+}
+
+section {
+  background-color: #FFFFFF;
+  color: #6d331c;
+  margin: 20px;
+  padding: 20px;
+  border-left: 10px solid #FC9601;
+}
+
+footer {
+  background-color: #FC9601;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.padded-img {
+    width: 200px;
+    height: auto;
+    padding: 10px; 
+    border: 5px solid #222;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.padded-img:hover {
+    transform: scale(3);
+}
+.about-us {
+    background-color: linear-gradient(to bottom, #00BFFF, #87CEEB, #E0FFFF);
+    padding: 40px 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Monotype Corsiva", cursive;
+     font-weight: bold;
+    color: #222;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.about-us h3{ 
+    color: #393e46;
+    margin-bottom: 20px;
+    
+}
+.gap-right {
+    margin-right: 585px;
+    margin-left: 585px;
+}
+.photo-box {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+.caption {
+  color:black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin-top: 8px;
+}
+.signature-img {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-top: 20px;
+  filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.3));
+}
+
+.signature-caption {
+  text-align: right;
+  font-family: 'Monotype Corsiva', 'Brush Script MT', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 10px;
+  margin-top: 5px;
+}
